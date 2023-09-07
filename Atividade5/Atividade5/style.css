@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+.cabecalho{
+    text-align: center;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo {
+    background-color: firebrick;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+
+#horoscopo{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 350px;
+    height: 280px;
+    float: right;
+    border-radius: 5px;
+    background-image: url(https://www.mdzol.com/u/fotografias/m/2020/7/21/f1456x819-64613_234983_5050.jpg);
+}
+
+#fatec {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(https://th.bing.com/th/id/OIP.9cUV5yVLOAIsQEHn4mkxpQHaFS?pid=ImgDet&rs=1);
+    width: 350px;
+    height: 280px;
+    float: auto;
+    border-radius: 5px;
+}
+
+#cachorro {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 350px;
+    height: 280px;
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/OIP.NyUJsfxhuTw7d_1iTAqzYwAAAA?pid=ImgDet&rs=1);
+}
+
+#destaques {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:  rgba(187, 187, 187, 0.511);;
+}
+
+#destaques h2 {
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0;
+}
+
+.noticia img {
+    border: 1px solid white;
+    margin-right: 10px;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 600px) {
+    .row{
+        flex-direction: column;
+    }
+}
+
+.noticia {
+    flex: 1;
+    background-color: rgba(187, 187, 187, 0.511);
+    border-radius: 2px;
+    padding: 10px;
+    max-width: calc(50%-10px);
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.noticia p{
+    font-size: 20px;
+    margin-left: 0;
+   align-items: flex-end;
+}
+
+.noticia h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+footer{
+    text-align: center;
+}
+
