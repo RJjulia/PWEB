@@ -1,0 +1,67 @@
+*{
+    font-size: 18px;
+    background-color: white;
+}
+
+@media(min-width: 0px) and (max-width: 420px){
+    .container{
+        background-color: teal;
+    }
+    .h1Cores::after {
+        content: "Verde";
+        color: teal;
+    }
+}
+
+@media(min-width: 421px) and (max-width: 768px){
+    .container{
+        background-color:orange;
+    }
+    .h1Cores::after {
+        content: "Laranja";
+        color: orange;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .container{
+        background-color:rgb(250, 136, 206);
+    }
+    .h1Cores::after {
+        content: "Rosa";
+        color: rgb(250, 136, 206);
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1080px){
+    .container{
+        background-color: salmon;
+    }
+    .h1Cores::after {
+        content: "Salmão";
+        color: salmon;
+    }
+}
+
+@media(min-width: 1081px) and (max-width: 1366px){
+    .container{
+        background-color: blue;
+    }
+    .h1Cores::after {
+        content: "Azul";
+        color: blue;
+    }
+}
+
+@media(min-width: 1367px) and (max-width: 1920px){
+    .container{
+        background-color: yellow;
+    }
+    .h1Cores::after {
+        content: "Amarelo";
+        color: yellow;
+    }
+
+}
+
+
