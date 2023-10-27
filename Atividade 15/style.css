@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(197, 197, 197);
+}
+
+h1 { 
+    text-align:center; 
+}
+
+.pesquisa {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+form{
+    margin-left: 200px;
+}
+
+@media (max-width: 600px) {
+    form {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.radios {
+    text-align: center;
+    color: black;
+}
+
+.botoes {
+    text-align: center;
+}
